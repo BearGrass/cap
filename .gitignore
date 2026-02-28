@@ -1,0 +1,29 @@
+# Compiled artifacts
+/target/
+**/*.rs.bk
+*.pdb
+
+# Claude Code
+.claude/projects/
+.claude/settings.local.json
+
+# Test fixtures
+*.pcap
+*.pcapng
+
+# Logs
+*.log
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+
+# Linux perf
+perf.data*
+flamegraph.svg
